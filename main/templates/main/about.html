@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %} {% block title %} About {% endblock title %} 
+{% block content %}
+<div class="hero-body">
+  <div class="container has-text-centered">
+    <h1 class="title">About</h1>
+    <br />
+    <h2 class="subtitle">
+      This is a blog website for posting technical blogs. <br />
+      Created using django as backend and bulma CSS & Bootstrap as frontend framework.
+    </h2>
+    <strong>My social links</strong>
+    <div class="container py-2"></div>
+        <a class="button is-medium is-github" href="https://github.com/PritamSarbajna">
+            <span class="icon">
+            <i class="fab fa-github fa-lg"></i>
+            </span>
+        </a>
+        <a class="button is-medium is-linkedin" href="https://www.linkedin.com/in/pritam-sarbajna-74945821b/">
+            <span class="icon">
+            <i class="fab fa-linkedin fa-lg"></i>
+            </span>
+        </a>
+  </div>
+</div>
+{% endblock content %}

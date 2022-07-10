@@ -9,7 +9,7 @@
 - activate virtual environment 
 - install requirements.txt
 
-## Too see the project
+## To see the project
 [Blog Check](https://blog-check-website.herokuapp.com/)
 
 ## Preview
